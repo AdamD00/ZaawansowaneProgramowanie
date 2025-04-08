@@ -1,22 +1,20 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("image.jpg")
-hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+
+image = cv2.imread('image.jpg')
+image = cv2.resize(image, (600, 400))
 
 
-lower_bound = np.array([0, 120, 70])
-upper_bound = np.array([10, 255, 255])
+lower = np.array([20, 40, 100])
+upper = np.array([70, 80, 160])
 
-
-mask = cv2.inRange(hsv, lower_bound, upper_bound)
-
-
+mask = cv2.inRange(image, lower, upper)
 result = cv2.bitwise_and(image, image, mask=mask)
 
 
-cv2.imshow("Original Image", image)
-cv2.imshow("Mask", mask)
-cv2.imshow("Extracted Color", result)
-
+cv2.imshow('Oryginalny obraz', image)
+cv2.imshow('Maska', mask)
+cv2.imshow('Wynik z wybranym kolorem', result)
 cv2.waitKey(0)
+cv2.destroyAllWindows()
