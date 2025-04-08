@@ -1,0 +1,15 @@
+import cv2
+import numpy as np
+
+image = cv2.imread('example.png')
+image = cv2.resize(image, (600, 400))
+hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+lower_blue = np.array([85, 30, 30])
+upper_blue = np.array([145, 255, 255])
+mask = cv2.inRange(hsv, lower_blue, upper_blue)
+result = cv2.bitwise_and(image, image, mask=mask)
+cv2.imshow('Oryginalny obraz', image)
+cv2.imshow('Maska', mask)
+cv2.imshow('Wynik z wybranym kolorem', result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
