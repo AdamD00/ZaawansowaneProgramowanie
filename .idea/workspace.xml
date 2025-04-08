@@ -29,26 +29,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.zadanie1.executor": "Run",
-    "Python.zadanie10.executor": "Run",
-    "Python.zadanie2.executor": "Run",
-    "Python.zadanie3.executor": "Run",
-    "Python.zadanie4.executor": "Run",
-    "Python.zadanie5.executor": "Run",
-    "Python.zadanie6.executor": "Run",
-    "Python.zadanie7.executor": "Run",
-    "Python.zadanie8.executor": "Run",
-    "Python.zadanie9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "opencv__basic__splitting__and__merging",
-    "last_opened_file_path": "C:/Users/mroko/PycharmProjects/intelligent-project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;opencv__basic__splitting__and__merging&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mroko/PycharmProjects/intelligent-project&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mroko\PycharmProjects\ZaawansowaneProgramowanie" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mroko\PycharmProjects\ZaawansowaneProgramowanie" />
     </key>
   </component>
