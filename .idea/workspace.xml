@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb1ac43-ec98-4e13-baf0-922115104a33" name="Changes" comment="" />
+    <list default="true" id="ecb1ac43-ec98-4e13-baf0-922115104a33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/zadanie2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,26 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Zadanie8.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.zadanie1.executor": "Run",
-    "Python.zadanie10.executor": "Run",
-    "Python.zadanie2.executor": "Run",
-    "Python.zadanie3.executor": "Run",
-    "Python.zadanie4.executor": "Run",
-    "Python.zadanie5.executor": "Run",
-    "Python.zadanie6.executor": "Run",
-    "Python.zadanie7.executor": "Run",
-    "Python.zadanie8.executor": "Run",
-    "Python.zadanie9.executor": "Run",
-    "Python.zdanie1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "opencv__image__processing__basic__thresholding",
-    "last_opened_file_path": "C:/Users/mroko/PycharmProjects/intelligent-project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Zadanie8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zadanie9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zdanie1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;opencv__image__processing__basic__thresholding&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mroko/PycharmProjects/intelligent-project&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mroko\PycharmProjects\ZaawansowaneProgramowanie" />
