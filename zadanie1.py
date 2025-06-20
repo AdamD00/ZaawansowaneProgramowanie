@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('image.png')  # Podmień ścieżkę
-image = cv2.resize(image, (600, 400))  # opcjonalne skalowanie
+image = cv2.imread('image.png')
+image = cv2.resize(image, (600, 400))
 B, G, R = cv2.split(image)
 
 cv2.imshow('Kanał Niebieski (Gray)', B)
