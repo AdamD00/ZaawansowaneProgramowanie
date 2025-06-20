@@ -45,7 +45,7 @@ if __name__ == '__main__':
     testCounter = 0
     start_time = time.time()
 
-    for j in range(40, 141):  # zmień zakres przy większej liczbie zdjęć
+    for j in range(91, 192):  # zmień zakres przy większej liczbie zdjęć
         filename = f'{j}.jpg'
         pngPath = f'photos/{filename}'
         img = cv2.imread(pngPath)
@@ -54,25 +54,24 @@ if __name__ == '__main__':
             cropped = findLicensePlateOnIMG(img,pngPath)
             preprocessed = OCR.preprocess(cropped)
             if preprocessed is None:
-                print(f"{filename}: ❌ Brak tablicy (preprocess)")
+                print(f"{filename}: Brak tablicy (preprocess)")
                 continue
-
-            text = OCR.fastPlateOCR(preprocessed)
+            text = OCR.alprOCR(preprocessed)
             label = plates_dict.get(filename, "")
 
-            print(f"{filename}: 🔡 OCR = {text}, ✅ GT = {label}")
+            print(f"{filename}:  OCR = {text},  GT = {label}")
            # show_plate(cropped, text, label, "Paddle")
 
             testCounter += 1
             if label == text:
                 positiveTests += 1
         except Exception as e:
-            print(f"{filename}: ❌ Błąd przetwarzania: {e}")
+            print(f"{filename}:  Błąd przetwarzania: {e}")
 
     total_time = time.time() - start_time
     accuracy = (positiveTests / testCounter) * 100 if testCounter > 0 else 0
-    print(f"\n🔍 Accuracy: {accuracy:.2f}%")
-    print(f"⏱️ Time: {total_time:.2f} seconds")
+    print(f"\n Accuracy: {accuracy:.2f}%")
+    print(f"Time: {total_time:.2f} seconds")
 
     final_grade = calculate_final_grade(accuracy, total_time)
-    print(f"📊 Final Grade: {final_grade}")
+    print(f" Final Grade: {final_grade}")
