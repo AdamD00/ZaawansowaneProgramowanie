@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (ladowanie_i_wyswietlanie_zdjec)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Projekt - detekcja oraz OCR tablic rejestracyjnych)" project-jdk-type="Python SDK" />
 </project>
